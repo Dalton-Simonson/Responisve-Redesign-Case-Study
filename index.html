@@ -1,0 +1,103 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- Manrope -->
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<!-- Karla Text -->
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<!-- Montserrat -->
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+
+
+
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Responsive Redesign</title>
+      <!-- import CSS styles -->
+      <link rel="stylesheet" href="styles.css" /> 
+    </head>
+  
+    
+    <body class="main_body">
+
+      <div id="name" class="manrope-name"><h1>Dalton Simonson</h1></div>
+
+      <div id="picture_and_intro_div">
+       
+        <img src="Images/original site picture.png" alt="original_img" id="original_img">
+
+
+        <div id="introduction_text">
+            <h2 class="montserrat-section-text" id="main_intro">Responsive Redesign</h2>
+            <h3 class="karla-regular" id="main_intro_sub_text">This is the <a class="link" href="https://city-kitty.com/">site</a> for my cat's veternary office, which I have used fairly frequently.
+               The more I used the site, the more I came aware of some of its design issues.
+                So I decided to <a class="link" href="https://dalton-simonson.github.io/Responsive-Redesign/">redesign</a> the site from the ground up to provide a responsive and intuitive framework. 
+                Paying particular attention to usability and accessibility in my design.
+               
+            </h3>
+        </div>
+    </div>
+
+
+
+        <div class ="main_content">
+
+          <h2 id="problem_diagnosis" class="montserrat-sub-section-text">Problem Diagnosis</h2>
+
+          <ul id="problem_list" class="sub_list_text karla-regular">
+            <li>The signpost "buttons" are not immediately apparent as clickable</li>
+            <li>The ordering of the items are seeimingly arbitrary (request appointment is sequestered off to the bottom right)</li>
+            <li>Similar items are not grouped together</li>
+            <li>Some of the signpost are not actually clickable but are identical to clickable elements</li>
+            <li>Contrast errors throughout the site</li>
+            <li>Overall slightly cluttered, unclear, and questionable color choices</li>
+          </ul>
+
+
+          <h2 id="sketches_label" class="montserrat-sub-section-text">Sketches</h2>
+
+            <h3 id="sketches_text" class="sub_section_text karla-regular">The first thing I did was pick up the (Apple) pencil and got to sketching.
+               I wanted to have three strong sketches that could represent each screen size.
+                I kept in mind things like text heigharchy, contrast, and conventional design patterns while putting my own spin on my sketches.
+            </h3>
+
+            <div id="screen_sketches">
+                <img src="Images/desktop sketch.png" alt="desktop sketch image" id="desktop_sketch" class="screen_layout_sketches">
+                <img src="Images/tablet sketch.png" alt="tablet sketch image" id="tablet_sketch" class="screen_layout_sketches">
+                <img src="Images/mobile sketch.png" alt="mobile sketch image" id="mobile_sketch" class="screen_layout_sketches">
+            </div>
+
+
+            <h3 id="annotation_text" class="sub_section_text karla-regular">
+              These new designs aim to tackle the issues presented above with the original site.
+               The new design clearly shows what is clickable and orders those clickable elements in a sensible configuration.
+                For example, making an appointment is one of the most important actions so it is right at the top in a distinguishing color and right next to hours.
+                 I moved less important links/clickable elements to the bottom of the page in a style that still invites some minor attention after the main elements have been scanned. 
+            </h3>
+
+            <h2 id="sketches_label" class="montserrat-sub-section-text">High Fidelity Mockups</h2>
+
+            <h3 id="sketches_text" class="sub_section_text karla-regular">
+              Now that I had the layouts I wanted planned out it was time to make a style guide along with some designs that would be more representative of the final product.
+            </h3>
+
+            <div id="high_fidelity_images">
+                <img src="Images/style guide.png" alt="figma" id="style guide" class="figmas">
+                <img src="Images/desktop figma.png" alt="desktop figma image" id="desktop_figma" class="figmas">
+                <img src="Images/tablet figma.png" alt="tablet figma image" id="tablet_figma" class="figmas">
+                <img src="Images/mobile figma.png" alt="mobile figma image" id="mobile_figma" class="figmas">
+            </div>
+
+            <h3 id="final_text" class="sub_section_text karla-regular">
+              With the style guide and hi-fi mockups I went ahead and implemented my designs <a class="link" href="https://dalton-simonson.github.io/Responsive-Redesign/">here</a>.
+            </h3>
+    
+            
+        </div>
+    </body>
+  
+  </html>
